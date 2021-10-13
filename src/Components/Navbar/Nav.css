@@ -1,0 +1,23 @@
+.nav {
+  display: flex;
+  height: 10vh;
+  background-color: #ba68c8;
+  width: 100%;
+}
+.link-container {
+  display: inline-flex;
+  justify-content: space-around;
+  /* align-items: center; */
+  width: 100%;
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+  letter-spacing: 2px;
+  color:whitesmoke;
+  transition:letter-spacing 0.2s ease-in-out
+
+}
+.link:hover{
+    letter-spacing:3px;
+}
